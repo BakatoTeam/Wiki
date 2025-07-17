@@ -129,7 +129,7 @@ const config: Config = {
           items: [
             {
               label: 'Wiki',
-              to: '/docs/vanilla/intro',
+              to: '/docs/vanilla/info',
             },
             {
               label: 'Boosty',
@@ -154,7 +154,7 @@ const config: Config = {
           items: [
             {
               label: 'Wiki',
-              to: '/docs/plugins/intro',
+              to: '/docs/plugins/info',
             },
             {
               label: 'Telegram',
