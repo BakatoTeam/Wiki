@@ -1,5 +1,8 @@
 name: Build and Push Static Site
 
+env:
+  IMAGE_NAME: ghcr.io/bakatoteam/bakato-wiki
+
 on:
   push:
     branches: [main]  # или другой branch
@@ -27,4 +30,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/${{ github.repository }}:latest
+        tags: ${{ env.IMAGE_NAME }}:latest
