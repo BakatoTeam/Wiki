@@ -6,6 +6,6 @@ COPY . .
 RUN npm ci && npm run build
 
 # Этап 2 — минимальный веб-сервер
-FROM staticwebserver/static-web-server:2-alpine
+FROM ghcr.io/static-web-server/static-web-server:latest
 
 COPY --from=builder /app/build /public
