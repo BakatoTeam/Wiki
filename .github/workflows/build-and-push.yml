@@ -1,7 +1,7 @@
 name: Build and Push Static Site
 
 env:
-  IMAGE_NAME: ghcr.io/bakatoteam/bakato-wiki
+  IMAGE_NAME: ghcr.io/lakiviko/bakato-wiki
 
 on:
   push:
